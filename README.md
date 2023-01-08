@@ -1,2 +1,1 @@
-# https://Marian-1992.github.io/Plants/
-# https://marian-1992.github.io/rsschool-cv/
+# https://rolling-scopes-school.github.io/Marian1992-JSFEPRESCHOOL2022Q4/plants/
