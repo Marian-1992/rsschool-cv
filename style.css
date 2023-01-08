@@ -295,8 +295,6 @@ color: #717171;
 margin: 10px 0px 0px 0px;
 }
 
-
-
 .prices_wrapper{
 padding: 40px 109px 109px 115px;
 display: flex;
@@ -312,154 +310,139 @@ margin: 0px;
 }
 
 .prices_items{
+justify-content: space-between;
+align-items: center;
 border: 1px solid #E3E1D5;
 border-radius: 20px;
 padding: 34px 41px;
 margin-top: 60px;
-width: 332px;
-height: 282.01px;
 }
 
-b
-
-.footer{
-}
- 
-.footer_content{
+.price_item{
 align-items: center;
-display: flex;
-justify-content:space-between;
-width: 1222px;
-height: 50px;
-left: 109px;
-top: 40px;
+justify-content: space-between;
+margin-bottom: 32px; 
 }
-.year,.git{
-top: calc(50% - 50px/2);
+
+.price_item:nth-child(3){
+margin-bottom: 0px;
+}
+
+.price_button{
 font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 50px;
-text-decoration: none;
-color: #000000;
-}
-.rsschool{
-height: 50px;
-left: 42.71%;
-right: 42.64%;
-top: calc(50% - 50px/2);
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 50px;
-color: #000000;
-text-decoration: none;
-}
-
-.social{
-width: 188px;
-height: 50px;
-left: 1143px;
-top: 40px;
-}
-
-.inst .fb .tw .pn{
-width: 32px;
-height: 32px;
-left: 52px;
-top: 9px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*  
-
-
-.service_iteam1{
-width: 330px;
-height: 450px;
-left: 109px;
-top: 224px;
-}
-
-.garden_text{
-justify-content: center;
-width: 120px;
-height: 24px;
-left: 214px;
-top: 584px;
-font-family: 'Inter';
-font-style: normal;
 font-weight: 700;
 font-size: 20px;
 line-height: 20px;
+color: #000000;
+background: #EDF2EC;
+border-radius: 20px;
+padding: 16px 100px 16px 40px;
+border-color: transparent;
+}
+ 
+.text_call{
+font-family: 'Inter';
+font-weight: 700;
+font-size: 40px;
+line-height: 50px;
+text-align: right;
+color: #000000;
+margin: 0px;
+}
+
+.green_gar{
+color: #499A18;
+}
+
+.button_contact{
+display: flex;
+justify-content: flex-end;
+margin-top: 38px;
+}
+
+.call_button{
+display: flex;
+align-items: center;
+justify-content: center;
+border: 1px solid #E06733;
+border-radius: 5px;
+width: 161px;
+height: 50px;
+background-color:transparent;
+font-family: 'Inika';
+font-weight: 700;
+font-size: 20px;
+line-height: 26px;
 color: #E06733;
 }
 
-.lorem_text3{
-position: flex;
-width: 267.19px;
-height: 20px;
-left: 139.91px;
-top: 618px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 20px;
-color: #717171;
+.img_leaf{
+display: flex;
+justify-content: flex-end;
+margin-top: 39px;
 }
 
-.service_img1{
-width: 329px;
-height: 350px;
-left: 110px;
-top: 224px;
-background: url(pexels-frank-meriño-3612089.jpg);
-border-radius: 20px 20px 0px 0px;
+.contacts{
+background: #EDF2EC;
 }
 
-.rectangle1{
+.content{
+position: relative;
+display: flex;
 justify-content: center;
-box-sizing: border-box;
-width: 330px;
-height: 100px;
-left: 109px;
-top: 574px;
-border: 1px solid #E3E1D5;
-border-radius: 0px 0px 20px 20px;
+padding-top: 60px;
 }
 
-.service_iteam2{
+.main_text{
+font-family:'Inika';
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+color: #499A18;
+margin: 0px;
+}
+
+.city_content{
+position: relative;
+display: flex;
+justify-content: flex-end;
+margin-top: 37px;
+margin-right: 109px;
+}
+
+.button_city{
+width: 450px;
+height: 50px;
+font-family: 'Inter';
+font-weight: 400;
+font-size: 20px;
+line-height: 40px;
+letter-spacing: 0.05em;
+color: #717171;
+background: #D6E7D2;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 0px;
+border-color: transparent;
+text-align: left;
+}
+
+.woman{
 position: absolute;
-width: 330px;
-height: 450px;
-left: 555px;
-top: 224px;
 }
-*/
 
+.footer_content{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 40px 109px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.year,.git, .rsschool{
+top: calc(50% - 50px/2);
+font-family: 'Inter';
+font-weight: 400;
+font-size: 20px;
+line-height: 50px;
+text-decoration: none;
+color: #000000;
+}
